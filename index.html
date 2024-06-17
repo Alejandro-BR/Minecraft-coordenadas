@@ -11,28 +11,32 @@
 </head>
 
 <body>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
   <header>
     <h1>Minecraft coordenadas del portal</h1>
   </header>
+
   <section>
+
     <form name="calculadora">
       <h3>Calcular las cordenadas del portal </h3>
-      <br>  
-      
+      <br>
+
       <label for="overworld">Coordenadas del Overworld: </label>
-      <input type="number" name="xOverworld"> <input type="number" name="zOverworld">  <input type="number" name="yOverworld"> <br> <br>
+      <input type="number" name="xOverworld"> <input type="number" name="zOverworld"> <input type="number"
+        name="yOverworld"> <br> <br>
 
       <label for="nether">Coordenadas del Nether: </label>
-      <input type="number" name="xNether"> <input type="number" name="zNether">  <input type="number" name="yNether"> <br> <br>
-      
+      <input type="number" name="xNether"> <input type="number" name="zNether"> <input type="number" name="yNether">
+      <br> <br>
+
       <button type="button" onclick="calculate()">Calcular</button>
       <button type="button" onclick="restart()">Reiniciar</button>
-
     </form>
 
   </section>
 
-  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
