@@ -6,37 +6,62 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minecraft Coordenadas</title>
+  <link rel="shortcut icon" href="img/minecraft_logo.png" type="image/x-icon">
   <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
   <script src="js/calculation.js"></script>
+  <!-- <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 </head>
 
 <body>
-  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-
-  <header>
-    <h1>Minecraft coordenadas del portal</h1>
+  <header class="bg-primary text-white p-4 text-center">
+    <h1>Minecraft Coordenadas del Portal</h1>
   </header>
-
-  <section>
-
+  <section class="container mt-4">
     <form name="calculadora">
-      <h3>Calcular las cordenadas del portal </h3>
-      <br>
+      <h3 class="mb-4">Calcular las coordenadas del portal</h3>
 
-      <label for="overworld">Coordenadas del Overworld: </label>
-      <input type="number" name="xOverworld"> <input type="number" name="zOverworld"> <input type="number"
-        name="yOverworld"> <br> <br>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="xOverworld" class="form-label">X Overworld:</label>
+          <input type="number" name="xOverworld" class="form-control" placeholder="X">
+        </div>
+        <div class="col">
+          <label for="zOverworld" class="form-label">Z Overworld:</label>
+          <input type="number" name="zOverworld" class="form-control" placeholder="Z">
+        </div>
+        <div class="col">
+          <label for="yOverworld" class="form-label">Y Overworld:</label>
+          <input type="number" name="yOverworld" class="form-control" placeholder="Y">
+        </div>
+      </div>
 
-      <label for="nether">Coordenadas del Nether: </label>
-      <input type="number" name="xNether"> <input type="number" name="zNether"> <input type="number" name="yNether">
-      <br> <br>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="xNether" class="form-label">X Nether:</label>
+          <input type="number" name="xNether" class="form-control" readonly>
+        </div>
+        <div class="col">
+          <label for="zNether" class="form-label">Z Nether:</label>
+          <input type="number" name="zNether" class="form-control" readonly>
+        </div>
+        <div class="col">
+          <label for="yNether" class="form-label">Y Nether:</label>
+          <input type="number" name="yNether" class="form-control" readonly>
+        </div>
+      </div>
 
-      <button type="button" onclick="calculate()">Calcular</button>
-      <button type="button" onclick="restart()">Reiniciar</button>
+      <div class="text-center">
+        <button type="button" class="btn btn-primary btn-md me-2" onclick="calculate()">Calcular</button>
+        <button type="button" class="btn btn-danger btn-md" onclick="restart()">Reiniciar</button>
+      </div>
+
     </form>
-
   </section>
 
+  <footer class="bg-primary text-white p-4 text-center">
+    <p>© 2024 Alejandro Barrionuevo Rosado</p>
+  </footer>
 </body>
 
 </html>
