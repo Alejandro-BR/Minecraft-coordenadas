@@ -7,10 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minecraft Coordenadas</title>
   <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/calculation.js"></script>
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
+  <header>
+    <h1>Minecraft coordenadas del portal</h1>
+  </header>
+  <section>
+    <form name="calculadora">
+      <h3>Calcular las cordenadas del portal </h3>
+      <br>  
+      
+      <label for="overworld">Coordenadas del Overworld: </label>
+      <input type="number" name="xOverworld"> <input type="number" name="zOverworld">  <input type="number" name="yOverworld"> <br> <br>
+
+      <label for="nether">Coordenadas del Nether: </label>
+      <input type="number" name="xNether"> <input type="number" name="zNether">  <input type="number" name="yNether"> <br> <br>
+      
+      <button type="button" onclick="calculate()">Calcular</button>
+      <button type="button" onclick="restart()">Reiniciar</button>
+
+    </form>
+
+  </section>
+
   <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
