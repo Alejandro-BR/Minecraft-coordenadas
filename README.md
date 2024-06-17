@@ -1,18 +1,21 @@
 # Minecraft-coordenadas
 
-<!-- Una breve descripción del propósito y funcionalidades de la página web. -->
+<br>
 
-Alejandro Barrionuevo Rosado
+Es una herramienta útil para los jugadores de Minecraft, el propósito principal de esta página es proporcionar a los jugadores una forma fácil de determinar las coordenadas correspondientes del Nether basándose en su ubicación actual en el Overworld. Esto mejora la experiencia de juego al ayudar en la navegación entre las dos dimensiones dentro de Minecraft.
 
-<!-- ## Tabla de Contenidos
+<br>
+
+## Indice
 
 - [Demo](#demo)
 - [Tecnologías](#tecnologías)
-- [Uso](#uso) -->
+- [Créditos](#Créditos)
+<!-- - [Uso](#uso) -->
+
+<br>
 
 ## Demo
-
-<!-- Aquí puedes incluir un enlace a la página web en vivo y/o capturas de pantalla. -->
 
 [Enlace a la Demo](https://minecraft-coordenadas.netlify.app/)
 
@@ -20,7 +23,20 @@ Alejandro Barrionuevo Rosado
 
 <!-- - ![Captura de pantalla](url-de-la-captura) -->
 
+<br>
+
 ## Tecnologías
 
-<p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> &nbsp; <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> &nbsp; <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/640px-Bootstrap_logo.svg.png" alt="bootstrap" width="50" height="40"/> </a> </p>
+<br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> 
+<img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"> 
 
+<br>
+
+## Créditos
+
+<br>
+
+Este proyecto fue creado por [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR).
