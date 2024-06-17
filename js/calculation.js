@@ -22,9 +22,9 @@ function calculate() {
   }
 
   // Calcula las coordenadas del Nether.
-  xN = xO / DIVIDER;
+  xN = Math.round(xO / DIVIDER);
   zN = zO;
-  yN = yO / DIVIDER;
+  yN = Math.round(yO / DIVIDER);
 
   // Asigna las coordenadas calculadas al formulario.
   document.calculadora.xNether.value = xN;
