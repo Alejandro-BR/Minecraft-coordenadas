@@ -14,8 +14,11 @@ Alejandro Barrionuevo Rosado
 
 <!-- Aquí puedes incluir un enlace a la página web en vivo y/o capturas de pantalla. -->
 
-<!-- - [Enlace a la Demo](url-de-la-pagina)
-- ![Captura de pantalla](url-de-la-captura) -->
+[Enlace a la Demo](https://minecraft-coordenadas.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f9f9cda-e3e9-4f10-9be7-7ef46f51d2b0/deploy-status)](https://app.netlify.com/sites/minecraft-coordenadas/deploys)
+
+<!-- - ![Captura de pantalla](url-de-la-captura) -->
 
 ## Tecnologías
 
