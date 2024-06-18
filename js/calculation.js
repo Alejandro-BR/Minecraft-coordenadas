@@ -7,10 +7,10 @@
  */
 function calculate() {
   const DIVIDER = 8;
-  const MAX = 29999984; // Cordenada mas alta
-  const MIN = -29999984; // Cordenada mas baja
-  const HEIGHT_MAX = 320; // Limite de altura
-  const HEIGHT_MIN = -64; // Limite del suelo
+  const MAX = 29999984; // Coordenada más alta
+  const MIN = -29999984; // Coordenada más baja
+  const HEIGHT_MAX = 320; // Límite de altura
+  const HEIGHT_MIN = -64; // Límite del suelo
 
   let xO, zO, yO, xN, zN, yN;
 
@@ -19,16 +19,19 @@ function calculate() {
   zO = parseFloat(document.calculadora.zOverworld.value);
   yO = parseFloat(document.calculadora.yOverworld.value);
 
-  // Verifica si las coordenadas son numeros validos.
+  // Verifica si las coordenadas son números válidos.
   if (isNaN(xO) || isNaN(zO) || isNaN(yO)) {
     error("Las coordenadas deben ser números.");
+    restart();
     return;
   } else if (!isInteger(xO) || !isInteger(zO) || !isInteger(yO)) {
+    restart();
     error("Las coordenadas deben ser números enteros.");
     return;
-  } else if (xO > MAX || xO < MIN || yO > MAX || yO < MIN || zO > HEIGHT_MAX || zO < HEIGHT_MIN) {
+  } else if (xO > MAX || xO < MIN || zO > HEIGHT_MAX || zO < HEIGHT_MIN || yO > MAX || yO < MIN) {
     error("Las coordenadas deben estar dentro de los valores del juego.");
-    return;
+    restart();
+    return; 
   }
 
   // Calcula las coordenadas del Nether.
@@ -54,7 +57,7 @@ function restart() {
 }
 
 /**
- * Comprueba si un numero es un entero:
+ * Comprueba si un número es un entero:
  * 
  * true  --> si es un entero
  * false --> si no
@@ -77,12 +80,12 @@ function error(message) {
 }
 
 /**
- * Valida que el valor ingresado sea un numero entero.
+ * Valida que el valor ingresado sea un número entero.
  * @param {HTMLInputElement} input - El elemento de entrada a validar.
  */
 function validateIntegerInput(input) {
   const value = input.value;
-  if (!isInteger(parseFloat(value))) {
+  if (value && !isInteger(parseFloat(value))) {
     input.value = value.slice(0, -1);
     error("Las coordenadas deben ser números enteros.");
   }
