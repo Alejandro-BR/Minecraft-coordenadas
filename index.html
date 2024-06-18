@@ -10,7 +10,6 @@
   <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <script src="js/calculation.js"></script>
-  <!-- <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 </head>
 
 <body>
@@ -24,15 +23,18 @@
       <div class="row mb-3">
         <div class="col">
           <label for="xOverworld" class="form-label">X Overworld:</label>
-          <input type="number" name="xOverworld" class="form-control" placeholder="X">
+          <input type="number" name="xOverworld" class="form-control" placeholder="X" step="1"
+            oninput="validateIntegerInput(this)">
         </div>
         <div class="col">
           <label for="zOverworld" class="form-label">Z Overworld:</label>
-          <input type="number" name="zOverworld" class="form-control" placeholder="Z">
+          <input type="number" name="zOverworld" class="form-control" placeholder="Z" step="1"
+            oninput="validateIntegerInput(this)">
         </div>
         <div class="col">
           <label for="yOverworld" class="form-label">Y Overworld:</label>
-          <input type="number" name="yOverworld" class="form-control" placeholder="Y">
+          <input type="number" name="yOverworld" class="form-control" placeholder="Y" step="1"
+            oninput="validateIntegerInput(this)">
         </div>
       </div>
 
