@@ -10,6 +10,7 @@
   <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <script src="js/calculation.js" defer></script>
+  <script src="js/copy.js"></script>
 </head>
 
 <body>
@@ -55,7 +56,8 @@
 
       <div class="text-center">
         <button type="button" class="btn btn-primary btn-md me-2" onclick="calculate()">Calcular</button>
-        <button type="button" class="btn btn-danger btn-md" onclick="restart()">Reiniciar</button>
+        <button type="button" class="btn btn-danger btn-md me-2" onclick="restart()">Reiniciar</button>
+        <button type="button" class="btn btn-success btn-md text-white" onclick="copyCoordinates()">Copiar coordenadas</button>
       </div>
 
     </form>
