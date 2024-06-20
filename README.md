@@ -17,13 +17,17 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 
 ## Demo
 
-[Enlace a la Demo](https://minecraft-coordenadas.netlify.app/)
+[Enlace a la Demo.](https://minecraft-coordenadas.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f9f9cda-e3e9-4f10-9be7-7ef46f51d2b0/deploy-status)](https://app.netlify.com/sites/minecraft-coordenadas/deploys)
 
 ![Captura de pantalla](/img/captura_pc.png)
 
-![Captura de pantalla](/img/captura_movil1.jpg) ![Captura de pantalla](/img/captura_movil2.jpg)
+Capturas de pantalla en su versión para movil: 
+
+- [Captura de pantalla 1.](/img/captura_movil1.jpg)
+
+- [Captura de pantalla 2.](/img/captura_movil2.jpg)
 
 <br>
 
