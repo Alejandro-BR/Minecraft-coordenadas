@@ -23,6 +23,8 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 
 ![Captura de pantalla](/img/captura_pc.png)
 
+![Captura de pantalla](/img/captura_movil1.jpg) ![Captura de pantalla](/img/captura_movil2.jpg)
+
 <br>
 
 ## Tecnologías
