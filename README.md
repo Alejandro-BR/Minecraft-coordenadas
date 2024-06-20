@@ -21,7 +21,7 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f9f9cda-e3e9-4f10-9be7-7ef46f51d2b0/deploy-status)](https://app.netlify.com/sites/minecraft-coordenadas/deploys)
 
-<!-- - ![Captura de pantalla](url-de-la-captura) -->
+![Captura de pantalla](/img/captura_pc.png)
 
 <br>
 
