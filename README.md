@@ -1,8 +1,10 @@
-# Minecraft-coordenadas
+# Minecraft coordenadas
 
 <br>
 
 Es una herramienta útil para los jugadores de Minecraft, el propósito principal de esta página es proporcionar a los jugadores una forma fácil de determinar las coordenadas correspondientes del Nether basándose en su ubicación actual en el Overworld. Esto mejora la experiencia de juego al ayudar en la navegación entre las dos dimensiones dentro de Minecraft.
+
+[Readme in English](/doc/README_EN.md)
 
 <br>
 
@@ -11,7 +13,6 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 - [Demo](#demo)
 - [Tecnologías](#tecnologías)
 - [Créditos](#Créditos)
-<!-- - [Uso](#uso) -->
 
 <br>
 
