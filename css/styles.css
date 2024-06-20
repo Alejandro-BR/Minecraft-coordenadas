@@ -47,8 +47,17 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+  font-size: large;
   flex-shrink: 0;
   /* Evita que el footer se reduzca si hay poco contenido */
+}
+
+.footer-btn {
+  margin-top: 10px; /* Espacio arriba del botón */
+}
+
+.footer-btn:hover {
+  background-color: #333; /* Cambio de color de fondo al pasar el ratón */
 }
 
 h1,
