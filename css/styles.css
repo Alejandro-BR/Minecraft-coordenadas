@@ -16,7 +16,8 @@ body {
   /* Centra la imagen */
   background-repeat: no-repeat;
   /* Evita que la imagen se repita */
-  /* font-family: Arial, sans-serif; */
+  font-family: var(--bs-font-sans-serif);
+  /* Usar la variable Bootstrap */
   margin: 0;
   padding: 0;
   display: flex;
