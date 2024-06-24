@@ -6,6 +6,8 @@ It is a useful tool for Minecraft players, the main purpose of this page is to p
 
 [Readme in Spanish](/README.md)
 
+**It already has real users! 🎉**
+
 <br>
 
 ## Index

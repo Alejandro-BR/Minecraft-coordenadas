@@ -6,6 +6,8 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 
 [Readme in English](/doc/README_EN.md)
 
+**¡ Ya cuenta con usuarios reales ! 🎉**
+
 <br>
 
 ## Indice
