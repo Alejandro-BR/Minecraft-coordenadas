@@ -16,6 +16,7 @@ function copyCoordinates() {
   // Utilizar el Clipboard API para copiar al portapapeles
   navigator.clipboard.writeText(coordinates).then(function () {
     alert("Coordenadas copiadas: " + coordinates);
+    console.log("Coordenadas copiadas: " + coordinates)
   }).catch(function (err) {
     console.error('Error al copiar al portapapeles: ', err);
   });

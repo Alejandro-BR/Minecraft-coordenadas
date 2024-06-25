@@ -10,8 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
   botonMostrar.addEventListener('click', function () {
     if (div.style.display === 'none' || div.style.display === '') {
       div.style.display = 'block'; // Mostrar el div
+      console.log("Mostrar info.")
     } else {
       div.style.display = 'none'; // Ocultar el div
+      console.log("Ocultar info.")
     }
   });
 });
