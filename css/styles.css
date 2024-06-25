@@ -95,3 +95,14 @@ h3 {
 .btn-danger:hover {
   background-color: #c82333;
 }
+
+.oculto {
+  display: none;
+}
+
+#divInfo {
+  width: 80%; 
+  margin: 0 auto; 
+  text-align: justify; 
+  padding: 20px; 
+}

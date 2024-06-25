@@ -11,6 +11,7 @@
   <link href="css/styles.css" rel="stylesheet">
   <script src="js/calculation.js" defer></script>
   <script src="js/copy.js"></script>
+  <script src="js/info.js"></script>
 </head>
 
 <body>
@@ -57,10 +58,25 @@
       <div class="text-center">
         <button type="button" class="btn btn-primary btn-md me-2" onclick="calculate()">Calcular</button>
         <button type="button" class="btn btn-danger btn-md me-2" onclick="restart()">Reiniciar</button>
-        <button type="button" class="btn btn-success btn-md text-white" onclick="copyCoordinates()">Copiar coordenadas</button>
+        <button type="button" class="btn btn-success btn-md text-white" onclick="copyCoordinates()">Copiar
+          coordenadas</button>
+        <button type="button" id="mostrarInfo" class="btn btn-success btn-md text-white">Info</button>
       </div>
 
     </form>
+    <div id="divInfo" class="oculto">
+      <p>Para enlazar portales en Minecraft, primero construimos un portal en el Overworld. Una vez creado, no
+        entraremos inmediatamente, sino que anotaremos las coordenadas de la base del portal y las calcularemos para el
+        Nether. Luego, viajamos al Nether y, en las coordenadas resultantes, construimos otro portal. Al entrar en este
+        segundo portal, los dos portales quedarán enlazados entre ambos mundos.</p>
+      <ul>
+        <li>Construye un portal en el Overworld.</li>
+        <li>Anota las coordenadas de la base del portal.</li>
+        <li>Calcula las coordenadas correspondientes en el Nether.</li>
+        <li>Viaja al Nether y construye un portal en esas coordenadas.</li>
+        <li>Entra en el nuevo portal para enlazar ambos portales entre los dos mundos.</li>
+      </ul>
+    </div>
   </section>
 
   <footer class="text-white p-4 text-center d-flex justify-content-center align-items-center">
@@ -68,8 +84,8 @@
     <a href="https://github.com/Alejandro-BR/Minecraft-coordenadas" target="_blank" class="ms-3">
       <img src="img/github_logo.png" alt="GitHub" style="height: 30px;">
     </a>
-  </footer>  
-  
+  </footer>
+
 </body>
 
 </html>
