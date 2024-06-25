@@ -1,4 +1,4 @@
-/* Alejandro Barrionuevo Rosado */
+/* Alejandro Barrionuevo Rosado */ 
 
 /* Estilos personalizados */
 
@@ -11,13 +11,9 @@ body {
   background-color: #f8f9fa;
   background-image: url('../img/fondo.png');
   background-size: cover;
-  /* Ajusta el tamaño para cubrir toda la pantalla */
   background-position: center;
-  /* Centra la imagen */
   background-repeat: no-repeat;
-  /* Evita que la imagen se repita */
   font-family: var(--bs-font-sans-serif);
-  /* Usar la variable Bootstrap */
   margin: 0;
   padding: 0;
   display: flex;
@@ -39,7 +35,6 @@ section {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex: 1;
-  /* Hace que la sección ocupe todo el espacio disponible */
 }
 
 footer {
@@ -49,15 +44,14 @@ footer {
   text-align: center;
   font-size: large;
   flex-shrink: 0;
-  /* Evita que el footer se reduzca si hay poco contenido */
 }
 
 .footer-btn {
-  margin-top: 10px; /* Espacio arriba del botón */
+  margin-top: 10px;
 }
 
 .footer-btn:hover {
-  background-color: #333; /* Cambio de color de fondo al pasar el ratón */
+  background-color: #333;
 }
 
 h1,
@@ -75,7 +69,7 @@ h3 {
 }
 
 .btn {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .btn-primary {
@@ -101,8 +95,19 @@ h3 {
 }
 
 #divInfo {
-  width: 80%; 
-  margin: 0 auto; 
-  text-align: justify; 
-  padding: 20px; 
+  width: 90%;
+  margin: 10px auto;
+  text-align: justify;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  #divInfo {
+    font-size: 14px;
+  }
 }
