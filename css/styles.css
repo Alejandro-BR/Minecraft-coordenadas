@@ -68,26 +68,12 @@ h3 {
   margin-bottom: 10px;
 }
 
+.bottom {
+  color: white;
+}
+
 .btn {
   margin-top: 5px;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  color: white;
-}
-
-.btn-danger {
-  background-color: #dc3545;
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-}
-
-.btn-danger:hover {
-  background-color: #c82333;
 }
 
 .oculto {
