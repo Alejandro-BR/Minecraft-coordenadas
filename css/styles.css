@@ -1,11 +1,16 @@
 /* Alejandro Barrionuevo Rosado */
 
-/* Estilos personalizados */
-
+/* 
+  Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with Reserved Font Name "Press Start 2P".
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+  This license is available at: https://scripts.sil.org/OFL
+*/
 @font-face {
   font-family: 'PressStart2P';
   src: url('/font/PressStart2P-Regular.ttf') format('truetype');
 }
+
+/* Estilos personalizados */
 
 html {
   position: relative;
