@@ -31,12 +31,12 @@ body {
   min-height: 100vh;
 }
 
-/* header {
+header {
   background-color: #4CA433;
   color: white;
   padding: 20px;
   text-align: center;
-} */
+}
 
 section {
   margin: 20px;
@@ -47,14 +47,14 @@ section {
   flex: 1;
 }
 
-/* footer {
+footer {
   background-color: #4CA433;
   color: white;
   padding: 20px;
   text-align: center;
   font-size: large;
   flex-shrink: 0;
-} */
+}
 
 .footer-btn {
   margin-top: 10px;
@@ -173,35 +173,15 @@ body.nether {
   background-image: url('../img/nether_1920x1080.png');
 }
 
-header.overworld {
-  background-color: #4CA433;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
 header.nether {
   background-color: #c91d1d;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-footer.overworld {
-  background-color: #4CA433;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: large;
-  flex-shrink: 0;
 }
 
 footer.nether {
   background-color: #c91d1d;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: large;
-  flex-shrink: 0;
 }
 
+section.nether {
+  background-color: rgba(47, 47, 47, 0.8);
+  color: white;
+}

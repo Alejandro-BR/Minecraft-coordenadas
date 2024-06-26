@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var body = document.body;
       var header = document.querySelector('header');
       var footer = document.querySelector('footer');
+      var section = document.querySelector('section');
 
       if (this.checked) {
         body.classList.remove('overworld');
@@ -18,6 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         header.classList.add('nether');
         footer.classList.remove('overworld');
         footer.classList.add('nether');
+        section.classList.remove('overworld');
+        section.classList.add('nether');
         console.log("Tema cambiado a Nether");
       } else {
         body.classList.remove('nether');
@@ -26,6 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
         header.classList.add('overworld');
         footer.classList.remove('nether');
         footer.classList.add('overworld');
+        section.classList.remove('nether');
+        section.classList.add('overworld');
         console.log("Tema cambiado a Overworld");
       }
     });
