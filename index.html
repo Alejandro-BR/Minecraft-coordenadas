@@ -11,6 +11,7 @@
   <link rel="shortcut icon" href="img/minecraft_logo.png" type="image/x-icon">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="js/calculation.js" defer></script>
   <script src="js/copy.js"></script>
   <script src="js/info.js"></script>
@@ -22,7 +23,7 @@
   </header>
   <section class="container mt-4">
     <form name="calculadora">
-      <h3  id="tituloCalculadora"  class="mb-4">Calcular las coordenadas del portal</h3>
+      <h3 id="tituloCalculadora" class="mb-4">Calcular las coordenadas del portal</h3>
 
       <div class="row mb-3">
         <div class="col">
@@ -60,14 +61,17 @@
       <div class="text-center">
         <button type="button" class="btn btn-primary btn-md me-2" onclick="calculate()">Calcular</button>
         <button type="button" class="btn btn-danger btn-md me-2" onclick="restart()">Reiniciar</button>
-        <button type="button" class="btn btn-success btn-md me-2" onclick="copyCoordinates()">Copiar
-          coordenadas</button>
-        <button type="button" id="mostrarInfo" class="btn btn-success btn-md">Info</button>
+        <button type="button" class="btn btn-success btn-md me-2" onclick="copyCoordinates()">
+          <i class="bi bi-copy"></i> Copiar coordenadas
+        </button>
+        <button type="button" id="mostrarInfo" class="btn btn-success btn-md">
+          <i class="bi bi-card-text"></i> Información
+        </button>
       </div>
 
     </form>
     <div id="divInfo" class="oculto">
-      
+
       <p>En Minecraft, cada 8 bloques en el Overworld equivalen a 1 bloque en el Nether, lo que te permite recorrer
         grandes distancias más rápidamente.</p>
       <p>Para enlazar portales en Minecraft, primero construimos un portal en el Overworld. Una vez creado, no
@@ -79,14 +83,12 @@
 
     </div>
   </section>
-
   <footer class="text-white p-4 text-center d-flex justify-content-center align-items-center">
     <p class="mb-0">© 2024 Alejandro Barrionuevo Rosado</p>
     <a href="https://github.com/Alejandro-BR/Minecraft-coordenadas" target="_blank" class="ms-3">
       <img src="img/github.svg" alt="GitHub" style="height: 30px;">
     </a>
   </footer>
-
 </body>
 
 </html>
