@@ -15,11 +15,18 @@
   <script src="js/calculation.js" defer></script>
   <script src="js/copy.js"></script>
   <script src="js/info.js"></script>
+  <script src="js/theme.js"></script>
 </head>
 
-<body>
-  <header class="text-white p-4 text-center">
+<body class="overworld">
+  <header class="text-white p-4 text-center overworld">
     <h1 id="titulo">MINECRAFT COORDENADAS DEL PORTAL</h1>
+    <!-- Encabezado con imagen de toggle -->
+    <label for="toggle" class="theme-toggle-label">
+      <img src="img/portal.png" alt="Toggle Theme" id="themeToggleImg">
+    </label>
+    <!-- Checkbox para el toggle -->
+    <input type="checkbox" id="toggle" class="theme-toggle-checkbox">
   </header>
   <section class="container mt-4">
     <form name="calculadora">
@@ -83,7 +90,7 @@
 
     </div>
   </section>
-  <footer class="text-white p-4 text-center d-flex justify-content-center align-items-center">
+  <footer class="text-white p-4 text-center d-flex justify-content-center align-items-center overworld">
     <p class="mb-0">© 2024 Alejandro Barrionuevo Rosado</p>
     <a href="https://github.com/Alejandro-BR/Minecraft-coordenadas" target="_blank" class="ms-3">
       <img src="img/github.svg" alt="GitHub" style="height: 30px;">

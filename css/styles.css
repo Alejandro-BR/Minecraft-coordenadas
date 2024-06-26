@@ -18,8 +18,8 @@ html {
 }
 
 body {
-  background-color: #f8f9fa;
-  background-image: url('../img/fondo.png');
+  /* background-color: #f8f9fa;
+  background-image: url('../img/fondo.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,12 +31,12 @@ body {
   min-height: 100vh;
 }
 
-header {
+/* header {
   background-color: #4CA433;
   color: white;
   padding: 20px;
   text-align: center;
-}
+} */
 
 section {
   margin: 20px;
@@ -47,14 +47,14 @@ section {
   flex: 1;
 }
 
-footer {
+/* footer {
   background-color: #4CA433;
   color: white;
   padding: 20px;
   text-align: center;
   font-size: large;
   flex-shrink: 0;
-}
+} */
 
 .footer-btn {
   margin-top: 10px;
@@ -119,3 +119,89 @@ h3 {
     text-align: center;
   }
 }
+
+.theme-toggle-checkbox {
+  display: none;
+}
+
+/* .theme-toggle-label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.theme-toggle-label img {
+  width: 50px; 
+  height: 60px; 
+} */
+
+.theme-toggle-label {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-toggle-label img {
+  width: 60px; 
+  height: 70px; 
+}
+
+@media (max-width: 768px) {
+  .theme-toggle-label {
+    position: relative; 
+    top: auto;
+    right: auto;
+    margin-top: 10px; 
+    margin-right: 10px; 
+  }
+}
+
+/* Estilos adicionales para temas */
+
+body.overworld {
+  background-color: #f8f9fa;
+  background-image: url('../img/fondo.png');
+}
+
+body.nether {
+  background-color: #000000;
+  background-image: url('../img/nether_1920x1080.png');
+}
+
+header.overworld {
+  background-color: #4CA433;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header.nether {
+  background-color: #c91d1d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer.overworld {
+  background-color: #4CA433;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+  flex-shrink: 0;
+}
+
+footer.nether {
+  background-color: #c91d1d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+  flex-shrink: 0;
+}
+
