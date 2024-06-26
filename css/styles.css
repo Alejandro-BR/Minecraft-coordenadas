@@ -95,5 +95,13 @@ h3 {
 
   #divInfo {
     font-size: 14px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+    padding: 15px;
+  }
+
+  #tituloCalculadora {
+    text-align: center;
   }
 }
