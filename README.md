@@ -14,6 +14,7 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 
 - [Demo](#demo)
 - [Tecnologías](#tecnologías)
+- [Uso](#Uso)
 - [Créditos](#Créditos)
 
 <br>
@@ -46,6 +47,33 @@ Capturas de pantalla en su versión para movil:
 <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"> 
 
 <br>
+
+
+## Uso
+
+Esta página web está diseñada para ser compatible tanto con dispositivos móviles como con ordenadores.
+
+**Funcionalidades:**
+
+Al hacer clic en el portal, los usuarios pueden cambiar el tema de la página web entre las distintas dimensiones de Minecraft.
+
+El botón "Información" muestra u oculta toda la información necesaria para la creación de un portal. A continuación se muestra cómo se vería al hacer clic:
+
+![Boton informacion](/img/captura_pc_info.png)
+
+![Boton informacion](/img/captura_pc_nether_info.png)
+
+El botón "Copiar coordenadas" permite a los usuarios copiar las coordenadas actuales al portapapeles.
+
+Además, están disponibles los botones "Calcular" para calcular las coordenadas y "Reiniciar" para borrarlas.
+
+Aquí tienes un esquema visual de la interfaz:
+
+![Info](/img/infoES.png)
+
+
+<br>
+
 
 ## Créditos
 

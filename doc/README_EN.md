@@ -14,6 +14,7 @@ It is a useful tool for Minecraft players, the main purpose of this page is to p
 
 - [Demo](#demo)
 - [Technologies](#technologies)
+- [Usage](#usage)
 - [Credits](#credits)
 
 <br>
@@ -46,6 +47,34 @@ Mobile screenshots:
 <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"> 
 
 <br>
+
+
+## Usage
+
+This webpage is optimized for both mobile devices and computers.
+
+**Features:**
+
+Clicking on the portal allows users to switch the webpage theme between different Minecraft dimensions.
+
+The "Information" button displays or hides all the necessary information for creating a portal. Here's how it appears when clicked:
+
+![Button info](/img/captura_pc_info.png)
+
+![Button info](/img/captura_pc_nether_info.png)
+
+The "Copy Coordinates" button enables users to copy the current coordinates to the clipboard.
+
+Additionally, there are "Calculate" and "Reset" buttons for managing coordinates.
+
+Here's a visual schema of the interface:
+
+![Info](/img/infoEN.png)
+
+Note: This webpage is only available in Spanish.
+
+<br>
+
 
 ## Credits
 
