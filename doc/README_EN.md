@@ -26,10 +26,14 @@ It is a useful tool for Minecraft players, the main purpose of this page is to p
 
 ![Screenshot](/img/captura_pc.png)
 
+![Screenshot](/img/captura_pc_nether.png)
+
 Mobile screenshots:
 
 - [Screenshot 1](/img/captura_movil1.jpg)
 - [Screenshot 2](/img/captura_movil2.jpg)
+- [Screenshot 3.](/img/captura_movil3.jpg)
+- [Screenshot 4.](/img/captura_movil4.jpg)
 
 <br>
 

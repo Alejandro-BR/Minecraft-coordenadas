@@ -26,11 +26,14 @@ Es una herramienta útil para los jugadores de Minecraft, el propósito principa
 
 ![Captura de pantalla](/img/captura_pc.png)
 
+![Captura de pantalla](/img/captura_pc_nether.png)
+
 Capturas de pantalla en su versión para movil: 
 
 - [Captura de pantalla 1.](/img/captura_movil1.jpg)
-
 - [Captura de pantalla 2.](/img/captura_movil2.jpg)
+- [Captura de pantalla 3.](/img/captura_movil3.jpg)
+- [Captura de pantalla 4.](/img/captura_movil4.jpg)
 
 <br>
 
