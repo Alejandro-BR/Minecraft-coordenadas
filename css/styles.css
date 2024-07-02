@@ -151,12 +151,19 @@ h3 {
 
 body.overworld {
   background-color: #f8f9fa;
-  background-image: url('../img/fondo.png');
+  background-image: url('../img/overworld_1920x1080.png');
 }
 
 body.nether {
   background-color: #000000;
   background-image: url('../img/nether_1920x1080.png');
+}
+
+@media (max-width: 768px) {
+  body.overworld {
+    background-color: #f8f9fa;
+    background-image: url('../img/overworld_1080x1920.png');
+  }
 }
 
 header.nether {
