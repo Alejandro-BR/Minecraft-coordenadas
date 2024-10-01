@@ -4,6 +4,8 @@
 
 Es una herramienta útil para los jugadores de Minecraft, el propósito principal de esta página es proporcionar a los jugadores una forma fácil de determinar las coordenadas correspondientes del Nether basándose en su ubicación actual en el Overworld. Esto mejora la experiencia de juego al ayudar en la navegación entre las dos dimensiones dentro de Minecraft.
 
+Este proyecto surge de la necesidad que enfrentan los jugadores avanzados de este videojuego, quienes requieren el uso frecuente de portales y deben calcular manualmente las coordenadas. Gracias a esta herramienta, esa tarea que solía ser molesta y tediosa debido a la constante división, ahora es mucho más cómoda y sencilla para los jugadores.
+
 [Readme in English](/doc/README_EN.md)
 
 **¡ Ya cuenta con usuarios reales ! 🎉**
